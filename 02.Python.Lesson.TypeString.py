@@ -1,0 +1,28 @@
+fullName = 'Elshan HUSEYZNADA'
+
+print(len(fullName))
+print('*********************')
+print(fullName[7])
+print('*********************')
+print(fullName[7:17])
+print('*********************')
+print(fullName[:3])
+print('*********************')
+myVariable1 = 'my title'
+myVariable2 = 'MY TITLE'
+print(myVariable1.title())
+print('*********************')
+print(myVariable1.upper())
+print('*********************')
+print(myVariable2.lower())
+print('*********************')
+print(myVariable2.count('T'))
+print('*********************')
+print(myVariable2.find('T'))
+print('*********************')
+print(myVariable2.replace('MY','Mənim'))
+print('*********************')
+print('String method list')
+print(dir(myVariable2))
+print('*********************')
+print(help(str.lower))
